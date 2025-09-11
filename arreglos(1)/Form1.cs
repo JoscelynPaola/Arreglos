@@ -9,7 +9,7 @@ namespace arreglos_1_
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void btnCargarMatriz_Click(object sender, EventArgs e)
@@ -26,7 +26,7 @@ namespace arreglos_1_
                         $"Ingrese el valor para la posición [{i},{j}]:",
                         "Cargar Matriz", "0");
 
-                    
+
                     if (string.IsNullOrEmpty(input))
                     {
                         return; // Se sale del método 
@@ -60,6 +60,11 @@ namespace arreglos_1_
 
             // Mostrar matriz y suma en un Label
             lblResultado.Text = $"Matriz:\n{mostrarMatriz}\nSuma total: {suma}";
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
