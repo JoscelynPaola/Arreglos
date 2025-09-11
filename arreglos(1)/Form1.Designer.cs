@@ -36,29 +36,29 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(18, 18);
             label1.Name = "label1";
             label1.Size = new Size(116, 15);
             label1.TabIndex = 0;
-            label1.Text = "INGRESA 9 NUMROS";
+            label1.Text = "INGRESA 9 NÚMROS";
             // 
             // btnCargarMatriz
             // 
-            btnCargarMatriz.Location = new Point(12, 48);
+            btnCargarMatriz.Location = new Point(12, 52);
             btnCargarMatriz.Name = "btnCargarMatriz";
             btnCargarMatriz.Size = new Size(138, 23);
             btnCargarMatriz.TabIndex = 1;
-            btnCargarMatriz.Text = "INGRAR NUMEROS";
+            btnCargarMatriz.Text = "INGRESAR NÚMEROS";
             btnCargarMatriz.UseVisualStyleBackColor = true;
             // 
             // lblResultado
             // 
             lblResultado.AutoSize = true;
-            lblResultado.Location = new Point(18, 86);
+            lblResultado.Location = new Point(18, 103);
             lblResultado.Name = "lblResultado";
-            lblResultado.Size = new Size(70, 15);
+            lblResultado.Size = new Size(73, 15);
             lblResultado.TabIndex = 2;
-            lblResultado.Text = "RESULTADO";
+            lblResultado.Text = "RESULTADO:";
             // 
             // Form1
             // 

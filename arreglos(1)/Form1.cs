@@ -26,7 +26,14 @@ namespace arreglos_1_
                         $"Ingrese el valor para la posición [{i},{j}]:",
                         "Cargar Matriz", "0");
 
+                    
+                    if (string.IsNullOrEmpty(input))
+                    {
+                        return; // Se sale del método 
+                    }
                     // Convertir a entero
+                    //try - intentar
+                    //parse - convertir
                     if (int.TryParse(input, out int valor))
                     {
                         matriz[i, j] = valor;
